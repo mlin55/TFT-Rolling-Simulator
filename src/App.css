@@ -1,4 +1,5 @@
-.App {
+
+/*.App {
   text-align: center;
 }
 
@@ -35,4 +36,129 @@
   to {
     transform: rotate(360deg);
   }
+}*/
+
+.bkgrnd {
+  display: flex;
+  background-image: url("./Images/BACKGROUND.PNG");
+  height: 100vh;
+  background-size: cover;
+  justify-content: center;
+}
+
+.benchContainer {
+  position: fixed;
+  display: flex;
+  bottom: 25vh;
+}
+
+.benchButtons {
+  background-color: black; 
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  padding: 0;
+}
+
+.benchPortraits {
+  width: 100px;
+  height: 100px;
+}
+
+.shopContainer {
+  position: fixed;
+  display: flex;
+  bottom: 0.3vh;
+  margin-left: 8px;
+}
+
+.refreshButton {
+  background-color: transparent;
+  border: transparent;
+  width: 195px;
+  height: 70px;
+  margin-top: 80px;
+  margin-right: 15px;
+}
+
+.shopButtons {
+  background-color: transparent;
+  border: transparent;
+  width: 205px;
+  height: 155px;
+  margin: 2px;
+  padding: 0;
+}
+
+.shopPortraits {
+  width: 200px;
+  height: 150px;
+  bottom: 1vh;
+}
+
+.shopBackground {
+  position: fixed;
+  bottom: 0vh;
+  height: 220px;
+}
+
+.goldCounter {
+  color: white;
+  position: fixed;
+  left: 960px;
+  bottom: 17vh;
+}
+
+.starContainer {
+  position: fixed;
+  display: flex;
+  bottom: 25.5vh;
+  left: 332px;
+}
+
+.stars {
+  opacity: 0;
+  width: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.goldButtons {
+  position: fixed;
+  display: flex;
+  top: 15vh;
+  left: 5vh;
+}
+
+.gButton {
+  width: 80px;
+  height: 50px;
+  margin: 10px;
+}
+
+.lvlButtons {
+  position: fixed;
+  display: flex;
+  top: 25vh;
+  left: 5vh;
+}
+
+.lButton {
+  width: 70px;
+  height: 30px;
+  margin: 10px;
+}
+
+.title {
+  position: fixed;
+  font-size: 50px;
+  color: white;
+}
+
+.controls {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  right: 10vh;
 }
